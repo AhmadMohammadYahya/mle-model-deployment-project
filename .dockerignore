@@ -1,0 +1,42 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Git
+.git/
+.github/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Testing and development
+tests/
+notebooks/
+.ipynb_checkpoints/
+test_data_loading.py
+
+# Raw datasets
+data/
+
+# MLflow tracking database and artifacts
+mlflow.db
+mlflow.db-journal
+mlruns/
+mlartifacts/
+artifacts/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,40 @@
+artifact_path: file:C:/Mine/ML+DS+AI/Neuefische_ML_AI_DS/Neuefische_Bootcamp_DS_ML/week_17_MLE_AI/mle-model-deployment-project/mlruns/1/models/m-50296169fc1141a2bb1b4f4340b4d8d9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.17
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+    - sklearn.tree._tree.Tree
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-50296169fc1141a2bb1b4f4340b4d8d9
+model_size_bytes: 4096169
+model_uuid: m-50296169fc1141a2bb1b4f4340b4d8d9
+prompts: null
+run_id: 957f5b5bebb34115821871db28e16628
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "passenger_count", "required": true}, {"type":
+    "integer", "name": "PULocationID", "required": true}, {"type": "integer", "name":
+    "DOLocationID", "required": true}, {"type": "double", "name": "pickup_hour_sin",
+    "required": true}, {"type": "double", "name": "pickup_hour_cos", "required": true},
+    {"type": "integer", "name": "pickup_day_of_week", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-18 22:08:05.176737'
